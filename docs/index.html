@@ -1,0 +1,365 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Maze Runner &mdash; Maze Runner 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> Maze Runner
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Maze Runner</a><ul>
+<li><a class="reference internal" href="#example-usage">Example usage</a><ul>
+<li><a class="reference internal" href="#breadth-first-search">Breadth-first search</a></li>
+<li><a class="reference internal" href="#depth-first-search">Depth-first search</a></li>
+<li><a class="reference internal" href="#a-search">A* search</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Maze Runner</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Maze Runner</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="maze-runner">
+<h1>Maze Runner<a class="headerlink" href="#maze-runner" title="Permalink to this headline">¶</a></h1>
+<p>A Python script that generates and solves mazes by using BFS, DFS or A*.</p>
+<div class="section" id="example-usage">
+<h2>Example usage<a class="headerlink" href="#example-usage" title="Permalink to this headline">¶</a></h2>
+<p>Please take a look at <a class="reference external" href="./test.py">test.py</a> script for an example of
+usage.</p>
+<div class="section" id="breadth-first-search">
+<h3>Breadth-first search<a class="headerlink" href="#breadth-first-search" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id1">
+<img alt="Breadth-first search" src="_images/bfs.png" />
+<p class="caption"><span class="caption-text">Breadth-first search</span></p>
+</div>
+</div>
+<div class="section" id="depth-first-search">
+<h3>Depth-first search<a class="headerlink" href="#depth-first-search" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id2">
+<img alt="Depth-first search" src="_images/dfs.png" />
+<p class="caption"><span class="caption-text">Depth-first search</span></p>
+</div>
+</div>
+<div class="section" id="a-search">
+<h3>A* search<a class="headerlink" href="#a-search" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id3">
+<img alt="A\* search" src="_images/h.png" />
+<p class="caption"><span class="caption-text">A* search</span></p>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<span class="target" id="module-maze_runner"></span><dl class="function">
+<dt id="maze_runner.array_to_color_codes_maze">
+<code class="descclassname">maze_runner.</code><code class="descname">array_to_color_codes_maze</code><span class="sig-paren">(</span><em>mat: numpy.ndarray</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="reference internal" href="_modules/maze_runner.html#array_to_color_codes_maze"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#maze_runner.array_to_color_codes_maze" title="Permalink to this definition">¶</a></dt>
+<dd><p>Transforms a maze from its numpy.ndarray representation into a list of 8-bit color codes.
+Good for saving the maze into an image using PIL, for example.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mat</strong> – a maze in its numpy.ndarray representation</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a numpy.ndarray containing the color codes for each tile in the maze</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="maze_runner.array_to_string_maze">
+<code class="descclassname">maze_runner.</code><code class="descname">array_to_string_maze</code><span class="sig-paren">(</span><em>mat: numpy.ndarray</em><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="_modules/maze_runner.html#array_to_string_maze"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#maze_runner.array_to_string_maze" title="Permalink to this definition">¶</a></dt>
+<dd><p>Transforms a maze from its numpy.ndarray representation into a string.
+Good for saving the maze into a file or printing it in the terminal.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>mat</strong> – a maze in its numpy.ndarray representation</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a maze in its string representation</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="maze_runner.distance">
+<code class="descclassname">maze_runner.</code><code class="descname">distance</code><span class="sig-paren">(</span><em>p1: (&lt;class 'int'&gt;</em>, <em>&lt;class 'int'&gt;)</em>, <em>p2: (&lt;class 'int'&gt;</em>, <em>&lt;class 'int'&gt;)</em><span class="sig-paren">)</span> &#x2192; float<a class="reference internal" href="_modules/maze_runner.html#distance"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#maze_runner.distance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates the Euclidean distance between two cartesian coordinates.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>p1</strong> – a tuple containing (y, x) positions of the first coordinate</li>
+<li><strong>p2</strong> – a tuple containing (y, x) positions of the second coordinate</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Euclidean distance between p1 and p2</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="maze_runner.make_maze">
+<code class="descclassname">maze_runner.</code><code class="descname">make_maze</code><span class="sig-paren">(</span><em>w: int = 200</em>, <em>h: int = 200</em>, <em>start: bool = False</em>, <em>end: bool = False</em><span class="sig-paren">)</span> &#x2192; str<a class="reference internal" href="_modules/maze_runner.html#make_maze"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#maze_runner.make_maze" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a maze of the given width and height, with options
+to randomly set start and end locations for the exploration procedure.</p>
+<p>Shamelesly taken from <a class="reference external" href="http://stackoverflow.com/a/31634316/1245214">http://stackoverflow.com/a/31634316/1245214</a></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>w</strong> – width of the maze</li>
+<li><strong>h</strong> – height of the maze</li>
+<li><strong>start</strong> – whether to set a start position in the maze for the search algorithms</li>
+<li><strong>end</strong> – whether to set an end position in the maze for the search algorithms</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a maze in its string representation</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="maze_runner.solve">
+<code class="descclassname">maze_runner.</code><code class="descname">solve</code><span class="sig-paren">(</span><em>maze: str</em>, <em>strategy: str = 'dfs'</em>, <em>verbosity: int = 0</em>, <em>file: str = None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/maze_runner.html#solve"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#maze_runner.solve" title="Permalink to this definition">¶</a></dt>
+<dd><p>Solves a maze using one of the available algorithms.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>maze</strong> – a maze in its string representation</li>
+<li><strong>strategy</strong> – which algorithm to use. Either ‘dfs’, ‘bfs’ or ‘a*’</li>
+<li><strong>verbosity</strong> – verbosity level of the exploration procedure. From 0 to 3.</li>
+<li><strong>file</strong> – Path to save an image file of the exploration procedure.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="maze_runner.string_to_array_maze">
+<code class="descclassname">maze_runner.</code><code class="descname">string_to_array_maze</code><span class="sig-paren">(</span><em>maze: str</em><span class="sig-paren">)</span> &#x2192; numpy.ndarray<a class="reference internal" href="_modules/maze_runner.html#string_to_array_maze"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#maze_runner.string_to_array_maze" title="Permalink to this definition">¶</a></dt>
+<dd><p>Transforms a maze from its string representation into a numpy.ndarray,
+using the numerical codes set by the package.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>maze</strong> – a maze in its string representation</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">a maze in its numpy.ndarray representation</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Douglas De Rizzo Meneghetti.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.0.1',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
