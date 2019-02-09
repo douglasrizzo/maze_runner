@@ -12,7 +12,7 @@ usage.
 Breadth-first search
 ~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: ./bfs.png
+.. figure:: sphinx/bfs.png
    :alt: Breadth-first search
 
    Breadth-first search
@@ -20,7 +20,7 @@ Breadth-first search
 Depth-first search
 ~~~~~~~~~~~~~~~~~~
 
-.. figure:: ./dfs.png
+.. figure:: sphinx/dfs.png
    :alt: Depth-first search
 
    Depth-first search
@@ -28,7 +28,7 @@ Depth-first search
 A\* search
 ~~~~~~~~~~
 
-.. figure:: ./h.png
+.. figure:: sphinx/h.png
    :alt: A\* search
 
    A\* search
